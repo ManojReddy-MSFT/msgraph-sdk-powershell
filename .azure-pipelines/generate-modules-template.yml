@@ -43,15 +43,6 @@ jobs:
   - template: ./common-templates/install-tools-template.yml
   - template: ./common-templates/checkout.yml
   - task: PowerShell@2
-    displayName: 'Generate Profiles'
-    continueOnError: false
-    enabled: false
-    inputs:
-      targetType: 'filePath'
-      pwsh: true
-      filePath: $(System.DefaultWorkingDirectory)/tools/GenerateProfiles.ps1
-
-  - task: PowerShell@2
     displayName: 'Build Auth Modules'
     inputs:
       targetType: 'inline'

@@ -4,8 +4,6 @@
 parameters:
   - name: Branch
     type: string
-  - name: BaseBranch
-    type: string
   - name: BuildAgent
     displayName: Build Agent
 
