@@ -18,8 +18,8 @@ steps:
   inputs:
     targetType: inline
     script: |
-      git status
       git add "$(System.DefaultWorkingDirectory)/src/Authentication/Authentication/custom/common/MgCommandMetadata.json"
-      git commit -m 'Add generated MgCommandMetadata.json. [run ci]'
+      git status
+      git commit -m 'Add generated MgCommandMetadata.json. [skip ci]'
       git push
       git status

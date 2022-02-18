@@ -1,0 +1,33 @@
+﻿# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License.
+
+parameters:
+  - name: TargetBranch
+    type: string
+    default: ''
+
+steps:
+  - task: Bash@3
+    displayName: "Switch to target branch: ${{ parameters.TargetBranch }}"
+    condition: and(succeeded(), ne('${{ parameters.TargetBranch }}', ''))
+    inputs:
+      targetType: inline
+      script: |
+        git clean -xdf
+        git fetch --all
+        git checkout ${{ parameters.TargetBranch }}
+        git pull
+        git branch -vv
+
+  - task: Bash@3
+    displayName: "Update Git Submodules"
+    inputs:
+      targetType: inline
+      script: |
+        git pull --recurse-submodules
+        git submodule update --init --recursive --remote
+
+  - task: securedevelopmentteam.vss-secure-development-tools.build-task-credscan.CredScan@2
+    displayName: "Run CredScan"
+    inputs:
+      debugMode: false

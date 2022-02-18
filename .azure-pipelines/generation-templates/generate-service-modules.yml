@@ -47,6 +47,7 @@ jobs:
       DocsBranch: ${{ parameters.DocsBranch }}
     steps:
       - template: ../common-templates/checkout.yml
+      - template: ../common-templates/switch-branch-template.yml
         parameters:
           TargetBranch: $(Branch)
 

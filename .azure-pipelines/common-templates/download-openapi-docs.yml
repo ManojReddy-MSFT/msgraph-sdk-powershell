@@ -16,9 +16,6 @@ jobs:
     pool: $(BuildAgent)
     steps:
       - template: ./checkout.yml
-        parameters:
-          TargetBranch: ${{ parameters.BaseBranch }}
-
       - template: ./install-tools-template.yml
 
       - task: PowerShell@2
@@ -35,10 +32,9 @@ jobs:
         inputs:
           targetType: inline
           script: |
-            git status
-            git branch $(ComputeBranch.WeeklyBranch)
-            git checkout $(ComputeBranch.WeeklyBranch)
-            git status
+            git checkout -b $(ComputeBranch.WeeklyBranch)
+            git push -u origin $(ComputeBranch.WeeklyBranch)
+            git branch -vv
 
       - task: PowerShell@2
         displayName: Download v1.0 OpenApi docs
@@ -125,9 +121,8 @@ jobs:
         inputs:
           targetType: inline
           script: |
-            git status
             git add .
-            git commit -m 'Weekly OpenApiDocs Download. [run ci]'
+            git commit -m 'Weekly OpenApiDocs Download. [skip ci]'
             git status
             git push --set-upstream origin $(ComputeBranch.WeeklyBranch)
             git status
