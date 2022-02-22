@@ -122,7 +122,7 @@ jobs:
             git add .
             git commit -m 'Weekly OpenApiDocs Download. [skip ci]'
             git status
-            git push -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" --set-upstream origin $(ComputeBranch.WeeklyBranch)
+            git push --set-upstream "https://$(GITHUB_TOKEN)@github.com/microsoftgraph/msgraph-sdk-powershell.git" $(ComputeBranch.WeeklyBranch)
             git status
 
 # References
