@@ -29,14 +29,16 @@ jobs:
         displayName: "Compute weekly branch name"
         inputs:
           targetType: inline
+          pwsh: true
           script: |
             $branch = "{0}/{1}" -f "$(Branch)", (Get-Date -Format yyyyMMddHHmm)
             Write-Host "##vso[task.setvariable variable=WeeklyBranch;isOutput=true]$branch"
 
-      - task: Bash@3
+      - task: PowerShell@2
         displayName: "Create weekly branch"
         inputs:
           targetType: inline
+          pwsh: true
           script: |
             git status
             git branch $(ComputeBranch.WeeklyBranch)
@@ -120,13 +122,14 @@ jobs:
             $NewModuleReadMePath = Join-Path $(System.DefaultWorkingDirectory) "/tools/Templates/readme.md"
             . "$(System.DefaultWorkingDirectory)\tools\WriteToModuleReadMe.ps1" -ReadMePath $NewModuleReadMePath -FieldName "module-version" -NewFieldValue $NewMetaModuleVersion
 
-      - task: Bash@3
+      - task: PowerShell@2
         displayName: Commit downloaded files
         condition: and(succeeded(), ne(variables['OpenAPIDocDiff.ModulesWithChanges'], ''))
         env:
           GITHUB_TOKEN: $(GITHUB_TOKEN)
         inputs:
           targetType: inline
+          pwsh: true
           script: |
             git status
             git add .

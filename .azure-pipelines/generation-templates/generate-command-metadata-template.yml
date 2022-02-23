@@ -10,13 +10,14 @@ steps:
     script: |
       . $(System.DefaultWorkingDirectory)/tools/PostGeneration/NewCommandMetadata.ps1 -SourcePath "$(System.DefaultWorkingDirectory)/src/" -IncludePermissions -Debug
 
-- task: Bash@3
+- task: PowerShell@2
   displayName: Push command metadata
   enabled: true
   env:
     GITHUB_TOKEN: $(GITHUB_TOKEN)
   inputs:
     targetType: inline
+    pwsh: true
     script: |
       git status
       git add "$(System.DefaultWorkingDirectory)/src/Authentication/Authentication/custom/common/MgCommandMetadata.json"

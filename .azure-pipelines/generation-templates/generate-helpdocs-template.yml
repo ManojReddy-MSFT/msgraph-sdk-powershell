@@ -18,15 +18,17 @@ steps:
   displayName: "Compute Docs Branch Name"
   inputs:
     targetType: inline
+    pwsh: true
     script: |
       $branch = "{0}/{1}" -f "${{ parameters.DOCSBRANCH }}", (Get-Date -Format yyyyMMddHHmm)
       Write-Host "Docs Branch $branch"
       Write-Host "##vso[task.setvariable variable=DocsBranch;isOutput=true]$branch"
 
-- task: Bash@3
+- task: PowerShell@2
   displayName: "Create Docs branch"
   inputs:
     targetType: inline
+    pwsh: true
     script: |
       git status
       git branch $(ComputeBranch.DocsBranch)
@@ -45,12 +47,13 @@ steps:
       $Modules = $ModulesToGenerate.Split(" ", [System.StringSplitOptions]::RemoveEmptyEntries)
       . $(System.DefaultWorkingDirectory)/tools/GenerateHelp.ps1 -ModulesToGenerate $Modules
 
-- task: Bash@3
+- task: PowerShell@2
   displayName: "Push Generated Help Docs"
   env:
     GITHUB_TOKEN: $(GITHUB_TOKEN)
   inputs:
     targetType: inline
+    pwsh: true
     script: |
       git status
       git push --set-upstream origin $(ComputeBranch.DocsBranch)

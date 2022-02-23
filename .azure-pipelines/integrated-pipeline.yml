@@ -60,16 +60,12 @@ stages:
       displayName: 'Compute Version'
       inputs:
         targetType: 'inline'
+        pwsh: true
         script: |
             if ('$(Build.SourceBranchName)' -eq "master"){
                 Write-Host "##vso[task.setvariable variable=BUILDNUMBER;isOutput=true]-1"
             }
             Write-Host "BUILDNUMBER set to $(BUILDNUMBER)"
-    - task: Bash@3
-      displayName: 'Print Environment'
-      inputs:
-        targetType: 'inline'
-        script: 'env | sort'
 
 - stage: GetSecrets
   displayName: 'Get Secrets From Azure KeyVault'
