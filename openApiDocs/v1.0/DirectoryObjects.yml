@@ -554,18 +554,23 @@ components:
           properties:
             appDisplayName:
               type: string
+              description: Display name of the application object on which this extension property is defined. Read-only.
               nullable: true
             dataType:
               type: string
+              description: Specifies the data type of the value the extension property can hold. Following values are supported. Not nullable. Binary - 256 bytes maximumBooleanDateTime - Must be specified in ISO 8601 format. Will be stored in UTC.Integer - 32-bit value.LargeInteger - 64-bit value.String - 256 characters maximum
             isSyncedFromOnPremises:
               type: boolean
+              description: Indicates if this extension property was synced from on-premises active directory using Azure AD Connect. Read-only.
               nullable: true
             name:
               type: string
+              description: Name of the extension property. Not nullable.
             targetObjects:
               type: array
               items:
                 type: string
+              description: Following values are supported. Not nullable. UserGroupOrganizationDeviceApplication
           additionalProperties:
             type: object
     microsoft.graph.entity:
@@ -574,6 +579,7 @@ components:
       properties:
         id:
           type: string
+          description: Read-only.
       additionalProperties:
         type: object
     microsoft.graph.directoryObjectCollectionResponse:
@@ -588,16 +594,16 @@ components:
           type: string
       additionalProperties:
         type: object
-    odata.error:
+    microsoft.graph.ODataErrors.ODataError:
       required:
         - error
       type: object
       properties:
         error:
-          $ref: '#/components/schemas/odata.error.main'
+          $ref: '#/components/schemas/microsoft.graph.ODataErrors.MainError'
       additionalProperties:
         type: object
-    odata.error.main:
+    microsoft.graph.ODataErrors.MainError:
       required:
         - code
         - message
@@ -609,18 +615,16 @@ components:
           type: string
         target:
           type: string
+          nullable: true
         details:
           type: array
           items:
-            $ref: '#/components/schemas/odata.error.detail'
+            $ref: '#/components/schemas/microsoft.graph.ODataErrors.ErrorDetails'
         innererror:
-          type: object
-          additionalProperties:
-            type: object
-          description: The structure of this object is service-specific
+          $ref: '#/components/schemas/microsoft.graph.ODataErrors.InnerError'
       additionalProperties:
         type: object
-    odata.error.detail:
+    microsoft.graph.ODataErrors.ErrorDetails:
       required:
         - code
         - message
@@ -632,8 +636,14 @@ components:
           type: string
         target:
           type: string
+          nullable: true
       additionalProperties:
         type: object
+    microsoft.graph.ODataErrors.InnerError:
+      type: object
+      additionalProperties:
+        type: object
+      description: The structure of this object is service-specific
   responses:
     microsoft.graph.directoryObjectCollectionResponse:
       description: Retrieved collection
@@ -646,7 +656,7 @@ components:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/odata.error'
+            $ref: '#/components/schemas/microsoft.graph.ODataErrors.ODataError'
   parameters:
     top:
       name: $top

@@ -5,19 +5,11 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
-    "/users/{user-id}/calendar/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
     "/users/{user-id}/calendar/calendarView/{event-id}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/calendar/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendar/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -33,19 +25,11 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
     "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -61,19 +45,11 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
-    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
     "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/calendars/{calendar-id}/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -86,18 +62,6 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/calendars/{calendar-id}/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -114,6 +78,10 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/chats/{chat-id}/messages/microsoft.graph.delta()": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
+    },
+    "/users/{user-id}/contactFolders/{contactFolder-id}/childFolders/{contactFolder-id1}/contacts/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -185,18 +153,6 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/microsoft.graph.delta()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
     "/users/{user-id}/events/{event-id}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
@@ -222,6 +178,10 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/joinedTeams/{team-id}/primaryChannel/messages/microsoft.graph.delta()": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/microsoft.graph.delta()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
@@ -266,10 +226,6 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },
     "/users/{user-id}/onenote/pages/{onenotePage-id}/microsoft.graph.preview()": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.preview()": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Functions.yml"
     },

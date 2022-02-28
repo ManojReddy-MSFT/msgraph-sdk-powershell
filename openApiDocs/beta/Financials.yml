@@ -1556,7 +1556,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property companyInformation from financials
+      summary: Get picture for the navigation property companyInformation from financials
       operationId: financials.companies_GetCompanyInformationPicture
       parameters:
         - name: company-id
@@ -1587,7 +1587,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property companyInformation in financials
+      summary: Update picture for the navigation property companyInformation in financials
       operationId: financials.companies_SetCompanyInformationPicture
       parameters:
         - name: company-id
@@ -3719,7 +3719,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.customerPaymentJournals.customerPayments.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -3764,7 +3764,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.customerPaymentJournals.customerPayments.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -5047,7 +5047,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.customerPayments.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -5085,7 +5085,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.customerPayments.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -6219,7 +6219,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.customers_GetPictureContent
       parameters:
         - name: company-id
@@ -6257,7 +6257,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.customers_SetPictureContent
       parameters:
         - name: company-id
@@ -7701,7 +7701,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.employees_GetPictureContent
       parameters:
         - name: company-id
@@ -7739,7 +7739,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.employees_SetPictureContent
       parameters:
         - name: company-id
@@ -9072,7 +9072,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.items_GetPictureContent
       parameters:
         - name: company-id
@@ -9110,7 +9110,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.items_SetPictureContent
       parameters:
         - name: company-id
@@ -11098,7 +11098,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies_GetPictureContent
       parameters:
         - name: company-id
@@ -11129,7 +11129,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies_SetPictureContent
       parameters:
         - name: company-id
@@ -12142,7 +12142,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.purchaseInvoiceLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -12180,7 +12180,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.purchaseInvoiceLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -13835,7 +13835,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.purchaseInvoices.purchaseInvoiceLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -13880,7 +13880,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.purchaseInvoices.purchaseInvoiceLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -14730,7 +14730,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.purchaseInvoices.vendor_GetPictureContent
       parameters:
         - name: company-id
@@ -14768,7 +14768,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.purchaseInvoices.vendor_SetPictureContent
       parameters:
         - name: company-id
@@ -15792,7 +15792,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesCreditMemoLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -15830,7 +15830,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesCreditMemoLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -17171,7 +17171,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesCreditMemos.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -17209,7 +17209,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesCreditMemos.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -18618,7 +18618,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesCreditMemos.salesCreditMemoLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -18663,7 +18663,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesCreditMemos.salesCreditMemoLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -19694,7 +19694,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesInvoiceLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -19732,7 +19732,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesInvoiceLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -21102,7 +21102,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesInvoices.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -21140,7 +21140,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesInvoices.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -22684,7 +22684,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesInvoices.salesInvoiceLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -22729,7 +22729,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesInvoices.salesInvoiceLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -23898,7 +23898,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesOrderLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -23936,7 +23936,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesOrderLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -25289,7 +25289,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesOrders.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -25327,7 +25327,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesOrders.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -26752,7 +26752,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesOrders.salesOrderLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -26797,7 +26797,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesOrders.salesOrderLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -27820,7 +27820,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesQuoteLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -27858,7 +27858,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesQuoteLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -29220,7 +29220,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesQuotes.customer_GetPictureContent
       parameters:
         - name: company-id
@@ -29258,7 +29258,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesQuotes.customer_SetPictureContent
       parameters:
         - name: company-id
@@ -30713,7 +30713,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.salesQuotes.salesQuoteLines.item_GetPictureContent
       parameters:
         - name: company-id
@@ -30758,7 +30758,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.salesQuotes.salesQuoteLines.item_SetPictureContent
       parameters:
         - name: company-id
@@ -32794,7 +32794,7 @@ paths:
     get:
       tags:
         - financials.company
-      summary: Get media content for the navigation property picture from financials
+      summary: Get content for the navigation property picture from financials
       operationId: financials.companies.vendors_GetPictureContent
       parameters:
         - name: company-id
@@ -32832,7 +32832,7 @@ paths:
     put:
       tags:
         - financials.company
-      summary: Update media content for the navigation property picture in financials
+      summary: Update content for the navigation property picture in financials
       operationId: financials.companies.vendors_SetPictureContent
       parameters:
         - name: company-id
@@ -35157,6 +35157,7 @@ components:
       properties:
         id:
           type: string
+          description: Read-only.
       additionalProperties:
         type: object
     microsoft.graph.postalAddressType:
@@ -35180,13 +35181,13 @@ components:
           nullable: true
       additionalProperties:
         type: object
-    odata.error:
+    microsoft.graph.ODataErrors.ODataError:
       required:
         - error
       type: object
       properties:
         error:
-          $ref: '#/components/schemas/odata.error.main'
+          $ref: '#/components/schemas/microsoft.graph.ODataErrors.MainError'
       additionalProperties:
         type: object
     microsoft.graph.companyCollectionResponse:
@@ -35621,7 +35622,7 @@ components:
           type: string
       additionalProperties:
         type: object
-    odata.error.main:
+    microsoft.graph.ODataErrors.MainError:
       required:
         - code
         - message
@@ -35633,18 +35634,16 @@ components:
           type: string
         target:
           type: string
+          nullable: true
         details:
           type: array
           items:
-            $ref: '#/components/schemas/odata.error.detail'
+            $ref: '#/components/schemas/microsoft.graph.ODataErrors.ErrorDetails'
         innererror:
-          type: object
-          additionalProperties:
-            type: object
-          description: The structure of this object is service-specific
+          $ref: '#/components/schemas/microsoft.graph.ODataErrors.InnerError'
       additionalProperties:
         type: object
-    odata.error.detail:
+    microsoft.graph.ODataErrors.ErrorDetails:
       required:
         - code
         - message
@@ -35656,15 +35655,21 @@ components:
           type: string
         target:
           type: string
+          nullable: true
       additionalProperties:
         type: object
+    microsoft.graph.ODataErrors.InnerError:
+      type: object
+      additionalProperties:
+        type: object
+      description: The structure of this object is service-specific
   responses:
     error:
       description: error
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/odata.error'
+            $ref: '#/components/schemas/microsoft.graph.ODataErrors.ODataError'
     microsoft.graph.companyCollectionResponse:
       description: Retrieved collection
       content:

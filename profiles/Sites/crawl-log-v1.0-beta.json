@@ -13,10 +13,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/columns": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -26,10 +22,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/columns/{columnDefinition-id}/sourceColumn": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -45,19 +37,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/base/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/baseTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/$ref": {
+    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -73,11 +57,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/$ref": {
+    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -93,15 +73,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/drive": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/drive/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -109,11 +81,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/drives/{drive-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/drives/$ref": {
+    "/groups/{group-id}/sites/{site-id}/drives/{drive-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -121,11 +89,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/externalColumns/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/externalColumns/$ref": {
+    "/groups/{group-id}/sites/{site-id}/externalColumns/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -157,59 +121,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/driveItem/content": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -225,10 +141,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -241,19 +153,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/base/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/$ref": {
+    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -269,11 +173,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/$ref": {
+    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -289,15 +189,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/drive": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/drive/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -321,10 +213,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -337,15 +225,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/driveItem/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -366,6 +246,14 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/lists/{list-id}/items/{listItem-id}/versions/{listItemVersion-id}/fields": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/operations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/lists/{list-id}/operations/{richLongRunningOperation-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -398,10 +286,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/parentNotebook/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -441,19 +325,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/parentNotebook/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -485,10 +361,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -497,39 +369,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/parentSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sectionGroups": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sectionGroups/{sectionGroup-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -557,63 +397,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/parentSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sectionGroups": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sectionGroups/{sectionGroup-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections/{onenoteSection-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -638,10 +422,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/parentNotebook/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -681,19 +461,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/parentNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/parentNotebook/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -725,10 +497,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -737,39 +505,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/parentNotebook": {
+    "/groups/{group-id}/sites/{site-id}/operations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/parentNotebook/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/parentSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sectionGroups": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sectionGroups/{sectionGroup-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}": {
+    "/groups/{group-id}/sites/{site-id}/operations/{richLongRunningOperation-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -833,6 +577,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -845,15 +613,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -861,15 +621,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/children/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -889,23 +641,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/relations/{relation-id}/set": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/relations/{relation-id}/set/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/relations/{relation-id}/toTerm": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/relations/{relation-id}/toTerm/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -925,6 +665,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -937,15 +701,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -953,15 +709,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/groups/{group-id1}/sets/{set-id}/terms/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -989,6 +737,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1001,15 +773,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1017,15 +781,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1041,6 +797,154 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1053,23 +957,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/set": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/set/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/toTerm": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/toTerm/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1089,6 +981,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1101,15 +1017,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1117,15 +1025,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/groups/{group-id}/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1141,10 +1041,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/columns": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1154,10 +1050,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/columns/{columnDefinition-id}/sourceColumn": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1173,19 +1065,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/contentTypes/{contentType-id}/base/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/contentTypes/{contentType-id}/baseTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/$ref": {
+    "/sites/{site-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1201,11 +1085,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/$ref": {
+    "/sites/{site-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1218,10 +1098,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1249,11 +1125,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/drive": {
+    "/sites/{site-id}/contentTypes/microsoft.graph.addCopyFromContentTypeHub": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/drive/$ref": {
+    "/sites/{site-id}/contentTypes/microsoft.graph.getCompatibleHubContentTypes()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/drive": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1261,11 +1141,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/drives/{drive-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/drives/$ref": {
+    "/sites/{site-id}/drives/{drive-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1273,11 +1149,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/externalColumns/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/externalColumns/$ref": {
+    "/sites/{site-id}/externalColumns/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1301,71 +1173,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/driveItem/content": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/activities": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/activities/{itemActivityOLD-id1}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/analytics": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/driveItem/content": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/fields": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/activities/{itemActivityOLD-id}/listItem/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1381,10 +1193,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/contentTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1397,19 +1205,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/base/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/$ref": {
+    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/baseTypes/{contentType-id1}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1425,11 +1225,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/$ref": {
+    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columnPositions/{columnDefinition-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1442,10 +1238,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/contentTypes/{contentType-id}/columns/{columnDefinition-id}/sourceColumn/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1473,11 +1265,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/drive": {
+    "/sites/{site-id}/lists/{list-id}/contentTypes/microsoft.graph.addCopyFromContentTypeHub": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/drive/$ref": {
+    "/sites/{site-id}/lists/{list-id}/contentTypes/microsoft.graph.getCompatibleHubContentTypes()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/lists/{list-id}/drive": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1501,10 +1297,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/driveItem/content": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1513,27 +1305,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.createLink": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/analytics": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/analytics/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/driveItem": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/driveItem/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1566,6 +1342,22 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/lists/{list-id}/items/{listItem-id}/versions/{listItemVersion-id}/microsoft.graph.restoreVersion": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/lists/{list-id}/items/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/lists/{list-id}/items/microsoft.graph.delta(token='{token}')": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/lists/{list-id}/operations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/lists/{list-id}/operations/{richLongRunningOperation-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1613,14 +1405,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1638,22 +1422,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/microsoft.graph.preview()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToSectionGroup": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1677,34 +1445,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.copyToSection": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.onenotePatchContent": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.preview()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections/{onenoteSection-id}/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1725,14 +1465,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/onenote/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1750,22 +1482,6 @@
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
     "/sites/{site-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/microsoft.graph.preview()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToSectionGroup": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1841,6 +1557,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1853,15 +1593,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1869,15 +1601,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/children/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1897,23 +1621,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/set": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/set/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/toTerm": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/relations/{relation-id}/toTerm/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1933,6 +1645,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -1945,15 +1681,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1961,15 +1689,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/groups/{group-id}/sets/{set-id}/terms/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -1997,6 +1717,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -2009,15 +1753,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -2025,15 +1761,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/sets/{set-id}/children/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -2049,6 +1777,154 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/children/{term-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/parentGroup/sets/{set-id1}/terms/{term-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/sites/{site-id}/termStore/sets/{set-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -2061,23 +1937,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/set": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/set/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/toTerm": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/sets/{set-id}/relations/{relation-id}/toTerm/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -2097,6 +1961,30 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/fromTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/relations/{relation-id}/toTerm": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
+    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/children/{term-id1}/set": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Sites.yml"
+    },
     "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
@@ -2109,15 +1997,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/fromTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -2125,15 +2005,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/relations/{relation-id}/toTerm/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
     "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/set": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/sites/{site-id}/termStore/sets/{set-id}/terms/{term-id}/set/$ref": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
@@ -2153,11 +2025,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     },
-    "/users/{user-id}/followedSites/{site-id}/$ref": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Sites.yml"
-    },
-    "/users/{user-id}/followedSites/$ref": {
+    "/users/{user-id}/followedSites/{site-id}": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Sites.yml"
     }

@@ -85,10 +85,6 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/invitations/{invitation-id}/invitedUser/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
     "/oauth2PermissionGrants": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
@@ -105,11 +101,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/organization/{organization-id}/certificateBasedAuthConfiguration/$ref": {
+    "/organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -277,11 +269,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/memberOf/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/memberOf/$ref": {
+    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/memberOf/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -289,11 +277,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredOwners/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredOwners/$ref": {
+    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredOwners/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -301,11 +285,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredUsers/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredUsers/$ref": {
+    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/registeredUsers/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -313,11 +293,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/transitiveMemberOf/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/transitiveMemberOf/$ref": {
+    "/users/{user-id}/authentication/microsoftAuthenticatorMethods/{microsoftAuthenticatorAuthenticationMethod-id}/device/transitiveMemberOf/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -345,11 +321,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/memberOf/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/memberOf/$ref": {
+    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/memberOf/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -357,11 +329,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredOwners/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredOwners/$ref": {
+    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredOwners/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -369,11 +337,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredUsers/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredUsers/$ref": {
+    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/registeredUsers/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
@@ -381,11 +345,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/transitiveMemberOf/{directoryObject-id}/$ref": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
-    },
-    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/transitiveMemberOf/$ref": {
+    "/users/{user-id}/authentication/windowsHelloForBusinessMethods/{windowsHelloForBusinessAuthenticationMethod-id}/device/transitiveMemberOf/{directoryObject-id}": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Identity.SignIns.yml"
     }

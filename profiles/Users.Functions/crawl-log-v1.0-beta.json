@@ -17,11 +17,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendar/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendar/calendarView/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendar/calendarView/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendar/calendarView/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -33,11 +37,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendar/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendar/events/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendar/events/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendar/events/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -53,11 +61,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -69,11 +81,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -89,11 +105,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -105,11 +125,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -125,19 +149,15 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/microsoft.graph.delta()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/calendarView/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/calendarView/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/calendarView/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -157,6 +177,10 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
+    "/users/{user-id}/contactFolders/{contactFolder-id}/childFolders/{contactFolder-id1}/contacts/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
     "/users/{user-id}/contactFolders/{contactFolder-id}/childFolders/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
@@ -173,27 +197,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/bundles/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/following/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -201,19 +205,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/items/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/list/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -221,7 +213,7 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/list/items/{listItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
+    "/users/{user-id}/drives/{drive-id}/list/contentTypes/microsoft.graph.getCompatibleHubContentTypes()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -229,11 +221,11 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/root/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
+    "/users/{user-id}/drives/{drive-id}/list/items/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/root/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
+    "/users/{user-id}/drives/{drive-id}/list/items/microsoft.graph.delta(token='{token}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -241,31 +233,19 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/activities/{itemActivityOLD-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
     "/users/{user-id}/drives/{drive-id}/special/{driveItem-id}/listItem/microsoft.graph.getActivitiesByInterval(startDateTime='{startDateTime}',endDateTime='{endDateTime}',interval='{interval}')": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/microsoft.graph.delta()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/microsoft.graph.delta()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/microsoft.graph.allowedCalendarSharingRoles(User='{User}')": {
+    "/users/{user-id}/events/{event-id}/exceptionOccurrences/{event-id1}/instances/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/events/{event-id}/exceptionOccurrences/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/events/{event-id}/instances/{event-id1}/exceptionOccurrences/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -274,6 +254,10 @@
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/events/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -298,6 +282,10 @@
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/managedDevices/{managedDevice-id}/microsoft.graph.getNonCompliantSettings()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/managedDevices/{managedDevice-id}/microsoft.graph.getOemWarranty()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -373,10 +361,6 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.preview()": {
-      "apiVersion": "v1.0-beta",
-      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
-    },
     "/users/{user-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/microsoft.graph.preview()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
@@ -397,7 +381,27 @@
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
+    "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/decisions/{accessReviewInstanceDecisionItem-id}/instance/stages/{accessReviewStage-id}/decisions/microsoft.graph.filterByCurrentUser(on={on})": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/decisions/{accessReviewInstanceDecisionItem-id}/instance/stages/microsoft.graph.filterByCurrentUser(on={on})": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
     "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/decisions/microsoft.graph.filterByCurrentUser(on={on})": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/stages/{accessReviewStage-id}/decisions/{accessReviewInstanceDecisionItem-id}/instance/decisions/microsoft.graph.filterByCurrentUser(on={on})": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/stages/{accessReviewStage-id}/decisions/microsoft.graph.filterByCurrentUser(on={on})": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/pendingAccessReviewInstances/{accessReviewInstance-id}/stages/microsoft.graph.filterByCurrentUser(on={on})": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
@@ -406,6 +410,18 @@
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },
     "/users/{user-id}/planner/all/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/tasks/alltasks/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/tasks/lists/{baseTaskList-id}/tasks/microsoft.graph.delta()": {
+      "apiVersion": "v1.0-beta",
+      "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
+    },
+    "/users/{user-id}/tasks/lists/microsoft.graph.delta()": {
       "apiVersion": "v1.0-beta",
       "originalLocation": "/openApiDocs/beta/Users.Functions.yml"
     },

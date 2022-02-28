@@ -5,7 +5,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendar/calendarView/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendar/calendarView/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -69,7 +69,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendar/events/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendar/events/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -137,7 +137,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -201,7 +201,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendarGroups/{calendarGroup-id}/calendars/{calendar-id}/events/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -269,7 +269,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendars/{calendar-id}/calendarView/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -333,7 +333,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendars/{calendar-id}/events/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -401,63 +401,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.accept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.cancel": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.decline": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.dismissReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.forward": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.snoozeReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.tentativelyAccept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.accept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.cancel": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.decline": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.dismissReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.forward": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.snoozeReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/events/{event-id1}/microsoft.graph.tentativelyAccept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/calendarView/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/calendarView/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -613,63 +557,7 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.accept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.cancel": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.decline": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.dismissReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.forward": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.snoozeReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/calendarView/{event-id1}/microsoft.graph.tentativelyAccept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.accept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.cancel": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.decline": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.dismissReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.forward": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.snoozeReminder": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/events/{event-id1}/microsoft.graph.tentativelyAccept": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/events/{event-id}/calendar/microsoft.graph.getSchedule": {
+    "/users/{user-id}/events/{event-id}/instances/{event-id1}/attachments/microsoft.graph.createUploadSession": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -770,6 +658,50 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
     "/users/{user-id}/joinedTeams/{team-id}/schedule/microsoft.graph.share": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/attachments/microsoft.graph.createUploadSession": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.calendarSharingMessage/microsoft.graph.accept": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.copy": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.createForward": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.createReply": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.createReplyAll": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.forward": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.move": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.reply": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.replyAll": {
+      "apiVersion": "v1.0",
+      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
+    },
+    "/users/{user-id}/mailFolders/{mailFolder-id}/childFolders/{mailFolder-id1}/messages/{message-id}/microsoft.graph.send": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -1033,14 +965,6 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
     "/users/{user-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
@@ -1057,22 +981,6 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/notebooks/{notebook-id}/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
     "/users/{user-id}/onenote/notebooks/microsoft.graph.getNotebookFromWebUrl": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
@@ -1082,30 +990,6 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
     "/users/{user-id}/onenote/pages/{onenotePage-id}/microsoft.graph.onenotePatchContent": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.copyToSection": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/pages/{onenotePage-id1}/microsoft.graph.onenotePatchContent": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/pages/{onenotePage-id}/parentSection/parentSectionGroup/sections/{onenoteSection-id}/microsoft.graph.copyToSectionGroup": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
@@ -1125,14 +1009,6 @@
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
-    "/users/{user-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/sectionGroups/{sectionGroup-id}/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
     "/users/{user-id}/onenote/sections/{onenoteSection-id}/microsoft.graph.copyToNotebook": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
@@ -1146,22 +1022,6 @@
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
     "/users/{user-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/microsoft.graph.onenotePatchContent": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/sections/{onenoteSection-id}/pages/{onenotePage-id}/parentSection/microsoft.graph.copyToSectionGroup": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToNotebook": {
-      "apiVersion": "v1.0",
-      "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
-    },
-    "/users/{user-id}/onenote/sections/{onenoteSection-id}/parentSectionGroup/sections/{onenoteSection-id1}/microsoft.graph.copyToSectionGroup": {
       "apiVersion": "v1.0",
       "originalLocation": "/openApiDocs/v1.0/Users.Actions.yml"
     },
