@@ -16478,6 +16478,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentPolicies_ListCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignmentPolicy-id
@@ -16548,6 +16549,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentPolicies_GetCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignmentPolicy-id
@@ -17967,7 +17969,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentResourceRoles.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignmentResourceRole-id
@@ -18681,7 +18683,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentResourceRoles.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignmentResourceRole-id
@@ -19274,7 +19276,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentResourceRoles.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignmentResourceRole-id
@@ -19734,7 +19736,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignmentResourceRoles.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignmentResourceRole-id
@@ -21470,6 +21472,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageAssignmentPolicies_ListCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignment-id
@@ -21547,6 +21550,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageAssignmentPolicies_GetCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignment-id
@@ -22243,7 +22247,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -23061,7 +23065,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -23744,7 +23748,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -24272,7 +24276,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackage.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -26318,6 +26322,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentPolicy_ListCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignment-id
@@ -26388,6 +26393,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentPolicy_GetCustomExtensionHandlers
       parameters:
         - name: accessPackageAssignment-id
@@ -28026,7 +28032,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentResourceRoles.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -28844,7 +28850,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentResourceRoles.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -29527,7 +29533,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentResourceRoles.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -30055,7 +30061,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageAssignments.accessPackageAssignmentResourceRoles.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageAssignment-id
@@ -31492,6 +31498,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceRoles from identityGovernance
+      description: The roles in each resource in a catalog. Read-only.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs_ListAccessPackageResourceRoles
       parameters:
         - name: accessPackageCatalog-id
@@ -31601,6 +31608,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceRoles from identityGovernance
+      description: The roles in each resource in a catalog. Read-only.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs_GetAccessPackageResourceRoles
       parameters:
         - name: accessPackageCatalog-id
@@ -31884,7 +31892,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -32702,7 +32710,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResourceRoles.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -33382,7 +33390,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResources_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -33910,7 +33918,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResources.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -34518,7 +34526,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResources.accessPackageResourceRoles.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -35074,7 +35082,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResources.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -35670,7 +35678,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResources.accessPackageResourceScopes.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -35760,6 +35768,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceScopes from identityGovernance
+      description: Read-only.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs_ListAccessPackageResourceScopes
       parameters:
         - name: accessPackageCatalog-id
@@ -35878,6 +35887,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceScopes from identityGovernance
+      description: Read-only.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs_GetAccessPackageResourceScopes
       parameters:
         - name: accessPackageCatalog-id
@@ -36164,7 +36174,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -36692,7 +36702,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackageResourceScopes.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -38268,6 +38278,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageAssignmentPolicies_ListCustomExtensionHandlers
       parameters:
         - name: accessPackageCatalog-id
@@ -38352,6 +38363,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageAssignmentPolicies_GetCustomExtensionHandlers
       parameters:
         - name: accessPackageCatalog-id
@@ -39151,7 +39163,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -40073,7 +40085,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -40846,7 +40858,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -41442,7 +41454,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageCatalogs.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageCatalog-id
@@ -45039,7 +45051,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResourceRoleScope-id
@@ -45753,7 +45765,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResourceRoleScope-id
@@ -46346,7 +46358,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResourceRoleScope-id
@@ -46806,7 +46818,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResourceRoleScope-id
@@ -47669,7 +47681,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResources_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResource-id
@@ -48129,7 +48141,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResources.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResource-id
@@ -48669,7 +48681,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResources.accessPackageResourceRoles.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResource-id
@@ -49157,7 +49169,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResources.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResource-id
@@ -49685,7 +49697,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackageResources.accessPackageResourceScopes.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackageResource-id
@@ -50540,6 +50552,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageAssignmentPolicies_ListCustomExtensionHandlers
       parameters:
         - name: accessPackage-id
@@ -50617,6 +50630,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get customExtensionHandlers from identityGovernance
+      description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageAssignmentPolicies_GetCustomExtensionHandlers
       parameters:
         - name: accessPackage-id
@@ -51313,7 +51327,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackage-id
@@ -52131,7 +52145,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceRole.accessPackageResource.accessPackageResourceScopes.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackage-id
@@ -52814,7 +52828,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackage-id
@@ -53342,7 +53356,7 @@ paths:
       tags:
         - identityGovernance.entitlementManagement
       summary: Get accessPackageResourceEnvironment from identityGovernance
-      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.
+      description: Contains the environment information for the resource. This can be set using either the @odata.bind annotation or the environment's originId.Supports $expand.
       operationId: identityGovernance.entitlementManagement.accessPackages.accessPackageResourceRoleScopes.accessPackageResourceScope.accessPackageResource.accessPackageResourceRoles.accessPackageResource_GetAccessPackageResourceEnvironment
       parameters:
         - name: accessPackage-id
@@ -70310,6 +70324,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.customExtensionHandler'
+              description: The collection of stages when to execute one or more custom access package workflow extensions. Supports $expand.
           additionalProperties:
             type: object
     microsoft.graph.accessPackage:
@@ -70437,6 +70452,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.accessPackageResourceRole'
+              description: The roles in each resource in a catalog. Read-only.
             accessPackageResources:
               type: array
               items:
@@ -70446,6 +70462,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.accessPackageResourceScope'
+              description: Read-only.
             accessPackages:
               type: array
               items:
@@ -70496,6 +70513,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.customExtensionHandlerInstance'
+              description: A collection of custom workflow extension instances being run on an assignment request. Read-only.
             expirationDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
@@ -71339,11 +71357,13 @@ components:
             createdDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
+              description: 'Represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z. Read-only.'
               format: date-time
               nullable: true
             lastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
+              description: 'Represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z. Read-only.'
               format: date-time
               nullable: true
           additionalProperties:
@@ -72662,9 +72682,11 @@ components:
       properties:
         customExtensionId:
           type: string
+          description: Identifier of the customAccessPackageWorkflowExtension triggered at this instance.
           nullable: true
         externalCorrelationId:
           type: string
+          description: The unique run ID for the logic app.
           nullable: true
         stage:
           $ref: '#/components/schemas/microsoft.graph.accessPackageCustomExtensionStage'
@@ -73615,9 +73637,11 @@ components:
               $ref: '#/components/schemas/microsoft.graph.customExtensionClientConfiguration'
             description:
               type: string
+              description: Description for the customCalloutExtension object.
               nullable: true
             displayName:
               type: string
+              description: Display name for the customCalloutExtension object.
               nullable: true
             endpointConfiguration:
               $ref: '#/components/schemas/microsoft.graph.customExtensionEndpointConfiguration'
@@ -76530,6 +76554,8 @@ components:
               items:
                 $ref: '#/components/schemas/microsoft.graph.agreementAcceptance'
               description: The user's terms of use acceptance statuses. Read-only. Nullable.
+            security:
+              $ref: '#/components/schemas/microsoft.graph.security.security'
             deviceEnrollmentConfigurations:
               type: array
               items:
@@ -76767,6 +76793,7 @@ components:
           maximum: 2147483647
           minimum: -2147483648
           type: integer
+          description: The max duration in milliseconds that Azure AD will wait for a response from the logic app before it shuts down the connection. The valid range is between 200 and 2000 milliseconds. Default duration is 1000.
           format: int32
       additionalProperties:
         type: object
@@ -79985,6 +80012,16 @@ components:
               nullable: true
           additionalProperties:
             type: object
+    microsoft.graph.security.security:
+      allOf:
+        - $ref: '#/components/schemas/microsoft.graph.entity'
+        - title: security
+          type: object
+          properties:
+            informationProtection:
+              $ref: '#/components/schemas/microsoft.graph.security.informationProtection'
+          additionalProperties:
+            type: object
     microsoft.graph.deviceEnrollmentConfiguration:
       allOf:
         - $ref: '#/components/schemas/microsoft.graph.entity'
@@ -81331,6 +81368,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.teamsTab'
+              description: A collection of all the tabs in the chat. Nullable.
           additionalProperties:
             type: object
     microsoft.graph.userTeamwork:
@@ -82510,7 +82548,7 @@ components:
               $ref: '#/components/schemas/microsoft.graph.plannerChecklistItems'
             description:
               type: string
-              description: Description of the task
+              description: Description of the task.
               nullable: true
             previewType:
               $ref: '#/components/schemas/microsoft.graph.plannerPreviewType'
@@ -83365,6 +83403,20 @@ components:
           nullable: true
       additionalProperties:
         type: object
+    microsoft.graph.security.informationProtection:
+      allOf:
+        - $ref: '#/components/schemas/microsoft.graph.entity'
+        - title: informationProtection
+          type: object
+          properties:
+            labelPolicySettings:
+              $ref: '#/components/schemas/microsoft.graph.security.informationProtectionPolicySetting'
+            sensitivityLabels:
+              type: array
+              items:
+                $ref: '#/components/schemas/microsoft.graph.security.sensitivityLabel'
+          additionalProperties:
+            type: object
     microsoft.graph.enrollmentConfigurationAssignment:
       allOf:
         - $ref: '#/components/schemas/microsoft.graph.entity'
@@ -83388,7 +83440,7 @@ components:
       properties:
         actionName:
           type: string
-          description: 'The specified action. Supported values in the Microsoft Endpoint Manager portal are: Reprovision, Resize. Supported values in enterprise Cloud PC devices are: Rename, Reboot, Reprovision, Troubleshoot.'
+          description: 'The specified action. Supported values in the Microsoft Endpoint Manager portal are: Reprovision, Resize, Restore. Supported values in enterprise Cloud PC devices are: Reboot, Rename, Reprovision, Troubleshoot.'
           nullable: true
         actionState:
           $ref: '#/components/schemas/microsoft.graph.actionState'
@@ -85891,8 +85943,6 @@ components:
         - title: baseTask
           type: object
           properties:
-            body:
-              $ref: '#/components/schemas/microsoft.graph.itemBody'
             bodyLastModifiedDateTime:
               pattern: '^[0-9]{4,}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]([.][0-9]{1,12})?(Z|[+-][0-9][0-9]:[0-9][0-9])$'
               type: string
@@ -85922,14 +85972,17 @@ components:
               type: string
               description: 'The date and time when the task was last modified. By default, it is in UTC. You can provide a custom time zone in the request header. The property value uses ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2020 would look like this: ''2020-01-01T00:00:00Z''.'
               format: date-time
-            personalProperties:
-              $ref: '#/components/schemas/microsoft.graph.personalTaskProperties'
             recurrence:
               $ref: '#/components/schemas/microsoft.graph.patternedRecurrence'
             startDateTime:
               $ref: '#/components/schemas/microsoft.graph.dateTimeTimeZone'
             status:
               $ref: '#/components/schemas/microsoft.graph.taskStatus_v2'
+            textBody:
+              type: string
+              nullable: true
+            viewpoint:
+              $ref: '#/components/schemas/microsoft.graph.taskViewpoint'
             checklistItems:
               type: array
               items:
@@ -87060,6 +87113,62 @@ components:
         - waitingOnOthers
         - deferred
       type: string
+    microsoft.graph.security.informationProtectionPolicySetting:
+      allOf:
+        - $ref: '#/components/schemas/microsoft.graph.entity'
+        - title: informationProtectionPolicySetting
+          type: object
+          properties:
+            defaultLabelId:
+              type: string
+              nullable: true
+            isDowngradeJustificationRequired:
+              type: boolean
+            isMandatory:
+              type: boolean
+            moreInfoUrl:
+              type: string
+              nullable: true
+          additionalProperties:
+            type: object
+    microsoft.graph.security.sensitivityLabel:
+      allOf:
+        - $ref: '#/components/schemas/microsoft.graph.entity'
+        - title: sensitivityLabel
+          type: object
+          properties:
+            color:
+              type: string
+              nullable: true
+            contentFormats:
+              type: array
+              items:
+                type: string
+                nullable: true
+            description:
+              type: string
+              nullable: true
+            hasProtection:
+              type: boolean
+            isActive:
+              type: boolean
+            isAppliable:
+              type: boolean
+            name:
+              type: string
+              nullable: true
+            sensitivity:
+              maximum: 2147483647
+              minimum: -2147483648
+              type: integer
+              format: int32
+            tooltip:
+              type: string
+              nullable: true
+            parent:
+              $ref: '#/components/schemas/microsoft.graph.security.sensitivityLabel'
+          additionalProperties:
+            type: object
     microsoft.graph.deviceAndAppManagementAssignmentSource:
       title: deviceAndAppManagementAssignmentSource
       enum:
@@ -88162,14 +88271,6 @@ components:
         - weak
         - unknown
       type: string
-    microsoft.graph.personalTaskProperties:
-      title: personalTaskProperties
-      type: object
-      properties:
-        reminderDatetime:
-          $ref: '#/components/schemas/microsoft.graph.dateTimeTimeZone'
-      additionalProperties:
-        type: object
     microsoft.graph.taskStatus_v2:
       title: taskStatus_v2
       enum:
@@ -88178,6 +88279,19 @@ components:
         - completed
         - unknownFutureValue
       type: string
+    microsoft.graph.taskViewpoint:
+      title: taskViewpoint
+      type: object
+      properties:
+        categories:
+          type: array
+          items:
+            type: string
+            nullable: true
+        reminderDateTime:
+          $ref: '#/components/schemas/microsoft.graph.dateTimeTimeZone'
+      additionalProperties:
+        type: object
     microsoft.graph.checklistItem:
       allOf:
         - $ref: '#/components/schemas/microsoft.graph.entity'

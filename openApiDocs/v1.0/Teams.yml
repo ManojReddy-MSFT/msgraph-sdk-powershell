@@ -2848,6 +2848,7 @@ paths:
       tags:
         - chats.teamsTab
       summary: Get tabs from chats
+      description: A collection of all the tabs in the chat. Nullable.
       operationId: chats_ListTabs
       parameters:
         - name: chat-id
@@ -2954,6 +2955,7 @@ paths:
       tags:
         - chats.teamsTab
       summary: Get tabs from chats
+      description: A collection of all the tabs in the chat. Nullable.
       operationId: chats_GetTabs
       parameters:
         - name: chat-id
@@ -23117,6 +23119,7 @@ paths:
       tags:
         - users.chat
       summary: Get tabs from users
+      description: A collection of all the tabs in the chat. Nullable.
       operationId: users.chats_ListTabs
       parameters:
         - name: user-id
@@ -23237,6 +23240,7 @@ paths:
       tags:
         - users.chat
       summary: Get tabs from users
+      description: A collection of all the tabs in the chat. Nullable.
       operationId: users.chats_GetTabs
       parameters:
         - name: user-id
@@ -33508,6 +33512,7 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/microsoft.graph.teamsTab'
+              description: A collection of all the tabs in the chat. Nullable.
           additionalProperties:
             type: object
     microsoft.graph.teamsAppInstallation:
@@ -43240,7 +43245,7 @@ components:
               $ref: '#/components/schemas/microsoft.graph.plannerChecklistItems'
             description:
               type: string
-              description: Description of the task
+              description: Description of the task.
               nullable: true
             previewType:
               $ref: '#/components/schemas/microsoft.graph.plannerPreviewType'
